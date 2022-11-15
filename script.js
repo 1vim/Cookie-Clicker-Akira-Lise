@@ -347,3 +347,37 @@ const audioElementEncoreSuite2 = new Audio("jilda.mp3");
 
 // J'aimerai bien que quant : resultat = 1000 alors le background image change il devient rouge
 
+// quand result > 1000 alors background = imagesrouge.jpg
+
+
+// function backgroundrouge(){
+
+//     if (result > 1000 ) {
+//         back
+//         return;
+//     }
+
+//     result = result - prixAuto
+//     document.querySelector('#result').innerHTML = 'Score : ' + result;
+
+//     prixAuto = prixAuto * 2
+//     document.querySelector('#prixAuto').innerHTML = prixAuto + ' clicks ';
+
+//     compteurAuto = compteurAuto + 1
+//     document.querySelector('#compteurAuto').innerHTML = compteurAuto; 
+// }
+
+
+window.onload = function () {
+     var backgroundImg=["video.mp4",
+                       "rouge.jpg"
+                       ]
+
+       setInterval(changeImage, 5000);
+      function changeImage() {   
+       var i = Math.floor((Math.random() * 3));
+
+       document.body.style.backgroundImage = "url('"+backgroundImg[i]+"')";
+
+     }
+   }
