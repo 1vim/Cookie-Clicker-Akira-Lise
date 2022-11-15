@@ -52,6 +52,12 @@ var superbonus = 00
 function addRico(){
     result = result + scoreCalc
     document.querySelector('#result').innerHTML = 'Score : ' + result;
+
+
+        
+    if (result >= 1000) {
+        document.body.style.backgroundImage = "url('video.mp4')";
+    }
 }
 
 document.querySelector("#dino").addEventListener("click", addRico)
@@ -367,17 +373,6 @@ const audioElementEncoreSuite2 = new Audio("jilda.mp3");
 //     document.querySelector('#compteurAuto').innerHTML = compteurAuto; 
 // }
 
+// AU FINAL AVEC LA VIDéO C'EST MIEUX
 
-window.onload = function () {
-     var backgroundImg=["video.mp4",
-                       "rouge.jpg"
-                       ]
 
-       setInterval(changeImage, 5000);
-      function changeImage() {   
-       var i = Math.floor((Math.random() * 3));
-
-       document.body.style.backgroundImage = "url('"+backgroundImg[i]+"')";
-
-     }
-   }
