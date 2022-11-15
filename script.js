@@ -56,8 +56,8 @@ function addRico(){
 
         
     if (result >= 1000) {
+        document.body.style.backgroundImage = "url('video.mp4')";
         // document.body.style.backgroundVideo = "url('video.mp4')";
-        var video = document.getElementById("background-video");
     }
 }
 
@@ -68,7 +68,7 @@ document.querySelector("#dino").addEventListener("click", addRico);
 
 // var video = document.getElementById("background-video") = 'url(video.mp4';
 
-var video = url('video.mp4');
+// var video = url('video.mp4');
 
 // var btn = document.getElementById("btnVideo");
 
