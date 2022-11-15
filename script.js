@@ -61,12 +61,14 @@ function addRico(){
     }
 }
 
-document.querySelector("#dino").addEventListener("click", addRico)
+document.querySelector("#dino").addEventListener("click", addRico);
 
 
 // VIDEOOOOO TEST
 
-var video = document.getElementById("background-video");
+// var video = document.getElementById("background-video") = 'url(video.mp4';
+
+var video = url('video.mp4');
 
 // var btn = document.getElementById("btnVideo");
 
