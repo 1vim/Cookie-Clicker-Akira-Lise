@@ -56,7 +56,7 @@ function addRico(){
 
         
     if (result >= 1000) {
-        document.body.style.backgroundImage = "url('video.mp4')";
+        document.body.style.backgroundVideo = "url('video.mp4')";
     }
 }
 
