@@ -20,7 +20,7 @@ var compteur = 2 // prochain (affiché)
 var scoreCalc = 1 // permet d'augmenter le score affiché (sorte de ponderation)
 var prixAuto = 500
 var compteurAuto = 1
-
+var superbonus = 00
 
 // var score = 0
 // var nb_meteorites_per_click = 1;
@@ -343,3 +343,7 @@ function audio3(){
 document.querySelector("#autoclick").addEventListener("click", audio3)
 
 const audioElementEncoreSuite2 = new Audio("jilda.mp3");
+
+
+// J'aimerai bien que quant : resultat = 1000 alors le background image change il devient rouge
+
