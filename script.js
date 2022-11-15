@@ -33,17 +33,17 @@ var compteurAuto = 1
 
 
 //pour dire ton prénom
-window.onload = function alert() {
+// window.onload = function alert() {
 
-    let name = prompt("Quel est ton nom ?");
+//     let name = prompt("Quel est ton nom ?");
 
-    let space = document.getElementById("tonnom");
+//     let space = document.getElementById("tonnom");
 
-    space.innerHTML = name + ", à toi de sauver le monde !";
+//     space.innerHTML = name + ", à toi de sauver le monde !";
 
-    space.classList = 'animated';
+//     space.classList = 'animated';
 
-}
+// } Fonctionne pas tant pis
 
 
 
